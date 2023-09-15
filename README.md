@@ -1,1 +1,1 @@
-# This is a Login form with some animation in backgruound.
+# This is a Login form with some animation in background.
