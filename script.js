@@ -9,11 +9,11 @@ function fall()
      
         let size = Math.random() * 3;
         let x = Math.floor(Math.random() * window.innerWidth);
-        let drop = document.createElement('i');
         let time = Math.random() * 4;
-        drop.style.animationDuration = `${1+time}s`; 
-        main.appendChild(drop);
         let lag = Math.random() * -10;
+        let drop = document.createElement('i');
+        main.appendChild(drop);
+        drop.style.animationDuration = `${1+time}s`; 
         drop.style.animationDelay = `${lag}s`;
         drop.style.width = `${0.3 + size}px`;
         drop.style.left = `${x}px`;
